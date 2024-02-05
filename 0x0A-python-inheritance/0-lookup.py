@@ -10,6 +10,5 @@ def lookup(obj):
         obj(object of any class) -> The object in question
     Returns:
         list
-   """
-
-   return dir(obj)
+    """
+    return dir(obj)
